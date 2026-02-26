@@ -2,21 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Syeda Kisa Batool Rizvi | React Native Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
-      <div class="container nav">
-        <h2>Kisa Rizvi</h2>
+      <div class="nav">
+        <h2>Kisa.dev</h2>
         <nav>
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -24,86 +24,101 @@
     </header>
 
     <section class="hero">
-      <div class="container">
-        <h1>React Native Developer</h1>
-        <p>Building scalable, cross-platform mobile apps for iOS & Android.</p>
-        <a href="#projects" class="btn">View My Work</a>
+      <div class="hero-text">
+        <h1>Syeda Kisa Batool Rizvi</h1>
+        <p class="subtitle">Cross-Platform Mobile Engineer</p>
+        <p class="desc">
+          3+ years building scalable React Native applications for iOS and Android. Specialized in offline-first
+          architecture, Redux state management, API integrations, and production-ready deployments.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Me</h2>
+    <section id="experience" class="section dark">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="card">
+        <h3>React Native Developer – Matech Consulting</h3>
+        <p>May 2024 – Present</p>
         <p>
-          I’m Syeda Kisa Batool Rizvi, a React Native developer with 3+ years of experience building
-          high-performance mobile applications. I specialize in scalable architecture, Redux state management, API
-          integrations, and delivering production-ready apps.
+          Maintaining production apps, handling TestFlight releases, debugging complex issues, and delivering
+          scalable mobile solutions within Agile teams.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Associate Software Engineer – Cubix</h3>
+        <p>May 2021 – Sept 2023</p>
+        <p>
+          Built cross-platform applications, implemented REST APIs, managed state using Redux Toolkit, and
+          collaborated with backend & design teams.
         </p>
       </div>
     </section>
 
-    <section id="skills" class="section dark">
-      <div class="container">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-          <span>React Native</span>
-          <span>Redux Toolkit</span>
-          <span>TypeScript</span>
-          <span>JavaScript (ES6)</span>
-          <span>REST APIs</span>
-          <span>Firebase</span>
-          <span>Node.js</span>
-          <span>Git</span>
-          <span>Agile</span>
-        </div>
-      </div>
-    </section>
-
     <section id="projects" class="section">
-      <div class="container">
-        <h2>Selected Projects</h2>
+      <h2 class="section-title">Live Applications</h2>
 
-        <div class="project">
+      <div class="cards">
+        <div class="card">
           <h3>InspectionEdge (iOS)</h3>
-          <p>
-            Offline-first inspection system with real-time sync. Implemented data handling, sync logic, and
-            stability improvements.
-          </p>
+          <p>Offline-first inspection system with smart sync engine.</p>
+          <a href="https://apps.apple.com/us/app/inspection-edge/id1666208390" target="_blank"
+            >View on App Store</a
+          >
         </div>
 
-        <div class="project">
+        <div class="card">
           <h3>AmenitiesApp (Android)</h3>
-          <p>
-            Multi-building amenity booking platform with subscription management, payments, and admin panel
-            integration.
-          </p>
+          <p>Multi-building booking & subscription platform.</p>
+          <a href="https://apps.apple.com/us/app/lmcc-app/id1569186368" target="_blank">View Live</a>
         </div>
 
-        <div class="project">
+        <div class="card">
           <h3>Field Survey App (iOS)</h3>
-          <p>Online/offline field investigator system with reporting modules and secure data synchronization.</p>
+          <p>Field investigator app with custom reporting module.</p>
+          <a href="https://apps.apple.com/us/app/lmcc-app/id1569186368" target="_blank">View Live</a>
         </div>
 
-        <div class="project">
+        <div class="card">
           <h3>Glamic</h3>
-          <p>
-            Appointment booking app connecting service providers and customers. Built scalable booking flows and
-            optimized UX.
-          </p>
+          <p>Appointment booking platform for providers & customers.</p>
+        </div>
+
+        <div class="card">
+          <h3>PartyShark</h3>
+          <p>Party-centric mobile app with enhanced UI & API integration.</p>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section dark">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>Email: kisarizvi72@gmail.com</p>
-        <p>Location: Karachi, Pakistan</p>
+    <section id="skills" class="section dark">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <span>React Native</span>
+        <span>Redux Toolkit</span>
+        <span>TypeScript</span>
+        <span>JavaScript (ES6)</span>
+        <span>REST APIs</span>
+        <span>Firebase</span>
+        <span>Node.js</span>
+        <span>Git</span>
+        <span>Agile</span>
+        <span>Testing</span>
       </div>
     </section>
 
-    <footer>
-      <p>© 2026 Syeda Kisa Batool Rizvi</p>
-    </footer>
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: kisarizvi72@gmail.com</p>
+      <p>Location: Karachi, Pakistan</p>
+    </section>
+
+    <footer>© 2026 Syeda Kisa Batool Rizvi</footer>
   </body>
 </html>
